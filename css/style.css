@@ -1,0 +1,137 @@
+
+/* logo #000000 #2196F3
+#2196F3 hover i focus
+#212121
+#757575
+hero #FFFFFF */
+
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+ 
+/* Site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--accent-color);
+}
+
+/* HERO*/
+
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: #757575;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+}
+
+/* benefits */
+
+.benefits-list {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.text {
+    color: var(--title-text-color);
+    line-height: 1.71;
+}
+
+/* Work end Comanda */
+
+.work,
+.comanda {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+.comanda-element {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+
+.professional {
+    columns: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Footer */
+.contact .linkWhite {
+    color: var(--primary-white-color);
+    background-color: #757575;
+    text-decoration: none;
+}
+
+.contact .linkWhite:hover,
+.contact .linkWhite:focus {
+    color: var(--accent-color);
+}
